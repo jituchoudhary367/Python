@@ -1,0 +1,11 @@
+num = int(input("Enter any value between 3 and 39 :"))
+
+if(num<3 or num>39):
+    raise ValueError("Value should be between 3 and 39")
+
+#this is incorrect
+#Quick Quiz => write the program with 'quit' so it will not raise exception 
+# num = int(input("Enter any value between 3 and 39 :"))
+
+# if(num<3 or num>39 or num=='quit'):
+#     raise ValueError("Value should be between 3 and 39")
