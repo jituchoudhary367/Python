@@ -1,0 +1,1 @@
+emp1.raise_amount = 0.04 #The values can be changed here alsi because it is instance variable which is not associated with any of the class .they are related to the instance of the class.
